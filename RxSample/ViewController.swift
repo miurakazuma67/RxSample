@@ -7,13 +7,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+
+    @IBOutlet private weak var button1: UIButton!
+    @IBOutlet private weak var button2: UIButton!
+    @IBOutlet private weak var button3: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
+    @IBAction func tappedCombineLatest(_ sender: Any) {
+
+    }
+
+    @IBAction func tappedWithLatestFrom(_ sender: Any) {
+    }
+
+
+    @IBAction func tappedZip(_ sender: Any) {
+    }
 }
 
