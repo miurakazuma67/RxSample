@@ -16,9 +16,10 @@
 		A4620DE32BB1BA28004AC653 /* RxSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4620DE22BB1BA28004AC653 /* RxSampleTests.swift */; };
 		A4620DED2BB1BA28004AC653 /* RxSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4620DEC2BB1BA28004AC653 /* RxSampleUITests.swift */; };
 		A4620DEF2BB1BA28004AC653 /* RxSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4620DEE2BB1BA28004AC653 /* RxSampleUITestsLaunchTests.swift */; };
-		A4C8B3A52BB3076B001F056C /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8B3A42BB3076B001F056C /* ViewController1.swift */; };
-		A4C8B3A72BB3078C001F056C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8B3A62BB3078C001F056C /* ViewController2.swift */; };
-		A4C8B3A92BB307A9001F056C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8B3A82BB307A9001F056C /* ViewController3.swift */; };
+		A4C8B3A52BB3076B001F056C /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8B3A42BB3076B001F056C /* CombineLatestViewController.swift */; };
+		A4C8B3A92BB307A9001F056C /* ZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8B3A82BB307A9001F056C /* ZipViewController.swift */; };
+		A4CBBF092BB78E2800CB0C1A /* CombineLatest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CBBF082BB78E2800CB0C1A /* CombineLatest.storyboard */; };
+		A4CBBF0B2BB78E3900CB0C1A /* Zip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CBBF0A2BB78E3900CB0C1A /* Zip.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +53,10 @@
 		A4620DE82BB1BA28004AC653 /* RxSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4620DEC2BB1BA28004AC653 /* RxSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSampleUITests.swift; sourceTree = "<group>"; };
 		A4620DEE2BB1BA28004AC653 /* RxSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A4C8B3A42BB3076B001F056C /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
-		A4C8B3A62BB3078C001F056C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		A4C8B3A82BB307A9001F056C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A4C8B3A42BB3076B001F056C /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
+		A4C8B3A82BB307A9001F056C /* ZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewController.swift; sourceTree = "<group>"; };
+		A4CBBF082BB78E2800CB0C1A /* CombineLatest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineLatest.storyboard; sourceTree = "<group>"; };
+		A4CBBF0A2BB78E3900CB0C1A /* Zip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Zip.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +114,8 @@
 				A4620DD42BB1BA28004AC653 /* Assets.xcassets */,
 				A4620DD62BB1BA28004AC653 /* LaunchScreen.storyboard */,
 				A4620DD92BB1BA28004AC653 /* Info.plist */,
-				A4C8B3A42BB3076B001F056C /* ViewController1.swift */,
-				A4C8B3A62BB3078C001F056C /* ViewController2.swift */,
-				A4C8B3A82BB307A9001F056C /* ViewController3.swift */,
+				A4CBBF0C2BB78FA600CB0C1A /* CombineLatest */,
+				A4CBBF0D2BB78FBB00CB0C1A /* Zip */,
 			);
 			path = RxSample;
 			sourceTree = "<group>";
@@ -134,6 +135,24 @@
 				A4620DEE2BB1BA28004AC653 /* RxSampleUITestsLaunchTests.swift */,
 			);
 			path = RxSampleUITests;
+			sourceTree = "<group>";
+		};
+		A4CBBF0C2BB78FA600CB0C1A /* CombineLatest */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8B3A42BB3076B001F056C /* CombineLatestViewController.swift */,
+				A4CBBF082BB78E2800CB0C1A /* CombineLatest.storyboard */,
+			);
+			path = CombineLatest;
+			sourceTree = "<group>";
+		};
+		A4CBBF0D2BB78FBB00CB0C1A /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8B3A82BB307A9001F056C /* ZipViewController.swift */,
+				A4CBBF0A2BB78E3900CB0C1A /* Zip.storyboard */,
+			);
+			path = Zip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +244,7 @@
 			);
 			mainGroup = A4620DBF2BB1BA25004AC653;
 			packageReferences = (
-				A4620DFB2BB1BA51004AC653 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				A4C83B6E2BB979E6008B21E9 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = A4620DC92BB1BA25004AC653 /* Products */;
 			projectDirPath = "";
@@ -244,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4620DD82BB1BA28004AC653 /* LaunchScreen.storyboard in Resources */,
+				A4CBBF092BB78E2800CB0C1A /* CombineLatest.storyboard in Resources */,
 				A4620DD52BB1BA28004AC653 /* Assets.xcassets in Resources */,
 				A4620DD32BB1BA25004AC653 /* Main.storyboard in Resources */,
+				A4CBBF0B2BB78E3900CB0C1A /* Zip.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C8B3A72BB3078C001F056C /* ViewController2.swift in Sources */,
-				A4C8B3A52BB3076B001F056C /* ViewController1.swift in Sources */,
-				A4C8B3A92BB307A9001F056C /* ViewController3.swift in Sources */,
+				A4C8B3A52BB3076B001F056C /* CombineLatestViewController.swift in Sources */,
+				A4C8B3A92BB307A9001F056C /* ZipViewController.swift in Sources */,
 				A4620DD02BB1BA25004AC653 /* ViewController.swift in Sources */,
 				A4620DCC2BB1BA25004AC653 /* AppDelegate.swift in Sources */,
 				A4620DCE2BB1BA25004AC653 /* SceneDelegate.swift in Sources */,
@@ -465,6 +485,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +514,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,9 +646,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4620DFB2BB1BA51004AC653 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		A4C83B6E2BB979E6008B21E9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:ReactiveX/RxSwift.git";
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 6.6.0;
